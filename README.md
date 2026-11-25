@@ -36,11 +36,11 @@ respectively, result in 4-byte, 32-bit unsigned random integers.
 Changing those options can change the size (in bits) of the result.
 Valid alternatives are:
 
-The pair, bs=1 u1, give a one-byte, 8-bit result
+* The pair, bs=1 u1, give a one-byte, 8-bit result
 
-bs=2 u2 give a two-byte, 16 bit result
+* bs=2 u2 give a two-byte, 16 bit result
 
-On systems supporting 64-bit integers,
+* On systems supporting 64-bit integers,
 bs=8 and u8 will give 64-bit random integers.
 
 In November 2026 the author began writing an article
